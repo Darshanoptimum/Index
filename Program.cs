@@ -41,7 +41,7 @@ namespace Mountly_Expenses
                         string userEmail = Console.ReadLine();
                         Console.Write("Enter the password: ");
                         string userPassword = Console.ReadLine();
-                        Console.WriteLine(Environment.NewLine);
+                        Console.WriteLine(dalsukh);
                         bool userlogin = login.userLogin(userName, userEmail, userPassword); // user validation
                         if (userlogin)
                         {
