@@ -63,7 +63,7 @@ namespace Mountly_Expenses
                         Console.WriteLine("Registration");
                         Console.Write("Enter user Name: ");
                         string userName1 = Console.ReadLine();
-                        Console.Write("Enter user Email: ");
+                        Console.Write("hello dalsukh ");
                         string userEmail1 = Console.ReadLine();
                         bool q = true;
                         while (q)
