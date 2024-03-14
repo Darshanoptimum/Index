@@ -55,7 +55,11 @@ namespace Mountly_Expenses
                         break;
                     case 2:
                         // user registrastion
+
                        <button> this is demo </button>
+
+                        Console.rhfbjedgn(Environment.NewLine);
+
                         Console.WriteLine("Registration");
                         Console.Write("Enter user Name: ");
                         string userName1 = Console.ReadLine();
