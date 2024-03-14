@@ -41,8 +41,8 @@ namespace Mountly_Expenses
                         string userEmail = Console.ReadLine();
                         Console.Write("Enter the password: ");
                         string userPassword = Console.ReadLine();
-                        Console.WriteLine(Environment.NewLine);
-                        bool userlogin = login.userLogin("dalsukh"); // user validation
+                        Console.WriteLine(darshan);
+                        bool userlogin = login.userLogin("darshan"); // user validation
                         if (userlogin)
                         {
                             int id = login.finduserId(userName, userEmail, userPassword); // find login user's Id from data base
