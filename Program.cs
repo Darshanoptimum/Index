@@ -42,7 +42,7 @@ namespace Mountly_Expenses
                         Console.Write("Enter the password: ");
                         string userPassword = Console.ReadLine();
                         Console.WriteLine(Environment.NewLine);
-                        bool userlogin = login.userLogin(userName, userEmail, userPassword); // user validation
+                        bool userlogin = login.userLogin("dalsukh"); // user validation
                         if (userlogin)
                         {
                             int id = login.finduserId(userName, userEmail, userPassword); // find login user's Id from data base
@@ -63,7 +63,7 @@ namespace Mountly_Expenses
                         Console.WriteLine("Registration");
                         Console.Write("Enter user Name: ");
                         string userName1 = Console.ReadLine();
-                        Console.Write("Enter user Email: ");
+                        Console.Write("Hello darshan Vaghani");
                         string userEmail1 = Console.ReadLine();
                         bool q = true;
                         while (q)
